@@ -1,4 +1,4 @@
-# Reverse Int Explained (https://stackoverflow.com/questions/44581339/reverse-32bit-integer)
+# Reverse Int Explained
 
 As mentioned in the comments you must first reverse and then check. However here's a different way of checking.
 
@@ -95,3 +95,5 @@ else:
     print(x)
 ```
 Set the limits neg_limit= -0x80000000 and pos_limit= 0x7fffffff and check for them according to the explained logic.
+
+Source: https://stackoverflow.com/questions/44581339/reverse-32bit-integer
