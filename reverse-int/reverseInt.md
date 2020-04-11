@@ -1,7 +1,5 @@
 # Reverse Int Explained
 
-As mentioned in the comments you must first reverse and then check. However here's a different way of checking.
-
 To check you can just & the result with the appropriate mask.
 
 So in your case the limits are −2,147,483,648 and 2,147,483,647 the hex values of them are -0x80000000 and 0x7fffffff
